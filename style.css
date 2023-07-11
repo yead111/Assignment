@@ -20,9 +20,6 @@
 .pngwing {
     height: 500px;
     width: 400px;
-    
-    
-    
 }
 
 #button {
@@ -34,12 +31,81 @@
     /* border: none; */
     text-align: center;
     border-radius: 8px;
+}
 
-
+.hot {
+    font-size: 25px;
 }
 
 .Shop-Now {
     border: none;
+}
 
-    
+.Deal {
+    margin-top: 45px;
+    width: 200px;
+    width: 300px;
+    margin-bottom: 45px;
+}
+
+.Our-Featured {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.all-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.all-paragraph-img {
+    display: flex;
+    padding: auto;
+    margin-bottom: 150px;
+    gap: 10px;
+}
+
+.border-img {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-left: 20px;
+    color: #272727;
+}
+
+.border-img-2 {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.border-img-3 {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.Hot-Dea {
+    text-align: center;
+    padding: 30px 50px;
+    margin-top: 150px;
+    border: none;
+}
+
+.Sale-Up {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    text-align: center;
+    gap: 100px;
 }
