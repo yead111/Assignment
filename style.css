@@ -25,6 +25,8 @@ main {
 .pngwing {
     height: 500px;
     width: 400px;
+    position:relative;
+
 }
 
 .hot {
@@ -163,10 +165,9 @@ main {
 .Flower {
     color: aliceblue;
     text-align: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
     background-color: black;
-    height: 100vh;
+    height: 350px;
     background-position: center;
     align-items: center;
 }
@@ -183,4 +184,28 @@ main {
 }
 span{
     color: #ff073d;
+}
+body{
+    background: #f6f6f6;
+}
+.box{
+    width: 320px;
+    height: 100px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px;
+    padding: 40px 80px;
+    margin-top: 40px;
+    margin-left: 90px;
+    
+}
+.box .heading{
+    background: #E55473;
+    padding: 10px;
+    text-align: center;
+
+}
+.FAQs{
+    padding: 10px 20px;
+
 }
